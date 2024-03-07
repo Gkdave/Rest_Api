@@ -4,6 +4,6 @@ from .models import Company
 #Create serializers 
 class CompanySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Company()
+        model = Company
         fields = "__all__"
         
